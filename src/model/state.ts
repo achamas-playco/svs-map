@@ -1,6 +1,6 @@
 export const defaultViewWidth = document.documentElement.clientWidth;
 export const defaultViewHeight = document.documentElement.clientHeight;
-export const defaultItemCount = 10;
+export const defaultItemCount = 1000;
 
 interface State {
   view: {

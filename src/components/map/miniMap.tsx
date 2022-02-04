@@ -68,6 +68,7 @@ export default function MiniMap() {
         position: absolute;
         left: 10px;
         top: 10px;
+        pointer-events: none;
       `}
     >
       <div

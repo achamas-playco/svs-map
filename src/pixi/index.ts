@@ -26,7 +26,7 @@ export function createPIXIApplication() {
 
   Events.on(Event.Mount, (element: HTMLElement) => {
     element.appendChild(app.renderer.view);
-    app.resizeTo = element;
+    // app.resizeTo = element;
   });
 
   return app;

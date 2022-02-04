@@ -1,4 +1,4 @@
-import { Container, Sprite, Graphics } from 'pixi.js';
+import { Container, Sprite } from 'pixi.js';
 import app from 'src/pixi';
 import state from 'src/model/state';
 import { Event, Events } from 'src/events';
@@ -19,13 +19,6 @@ export default class MapView {
     app.stage.addChild(this.container);
 
     Events.on(Event.MiniMapChange, this.onMiniMapChange);
-
-    const graphics = new Graphics();
-
-    // Rectangle
-    graphics.beginFill(0xde3249);
-    graphics.drawRect(50, 50, 100, 100);
-    graphics.endFill();
   }
 
   doLayout() {
