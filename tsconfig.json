@@ -1,5 +1,10 @@
 {
+  "include": ["./src"],
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
     "sourceRoot": "./src",
     "strict": true,
     "outDir": "./ts-build/",

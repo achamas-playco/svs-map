@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { App } from './app';
+import './pixi';
+import MapContainer from './components/map';
 
-ReactDOM.render(<App />, document.getElementById('main'));
+ReactDOM.render(<MapContainer />, document.getElementById('map-container'));
